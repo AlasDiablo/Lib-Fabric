@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "dio_lib",
+	"version": "${version}",
+	"name": "Dio's Lib",
+	"description": "Library Mod for AlasDiablo's mods!",
+	"authors": [
+		"AlasDiablo",
+		"Safyrus"
+	],
+	"contact": {
+		"homepage": "https://github.com/AlasDiablo/Lib-Fabric",
+		"sources": "https://github.com/AlasDiablo/Lib-Fabric"
+	},
+	"license": "LGPL-3.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.alasdiablo.mods.lib.DioLib"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
